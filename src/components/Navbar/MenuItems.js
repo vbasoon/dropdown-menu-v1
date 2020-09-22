@@ -18,5 +18,6 @@ export const MenuItems = [
       title: 'Delelopment',
       path: '/development',
       cName: 'dropdown-link'
-   }
+   },
+
 ]
