@@ -3,7 +3,7 @@ import { Button } from './Button'
 import { Link } from 'react-router-dom'
 import './Navbar.css'
 import Dropdown from './Dropdown'
-import { FaTimes, FaBars } from "react-icons/fa";
+
 
 
 
@@ -38,7 +38,18 @@ function Navbar() {
                   {dropdown && <Dropdown
                   />}
                </li>
+               <li className="nav-item">
+                  <Link to='/contact-us' className='nav-link' onClick={closeMobileMenu}>
+                     Contact Us
+                  </Link>
+               </li>
+               <li className="nav-item">
+                  <Link to='/sign-up' className='nav-link-mobile' onClick={closeMobileMenu}>
+                     Sign Up
+                  </Link>
+               </li>
             </ul>
+            <Button />
 
          </nav>
       </div>
