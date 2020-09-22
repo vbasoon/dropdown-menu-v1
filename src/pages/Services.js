@@ -4,9 +4,9 @@ import '../App.css'
 function Services() {
    return (
       <div>
-         <h1 className="consulting">Services</h1>
+         <h1 className="services">Services</h1>
       </div>
    )
 }
 
-export default Services
+export default Services 
